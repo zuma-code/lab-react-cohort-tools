@@ -18,9 +18,12 @@ function StudentListPage() {
           <span style={{ flexBasis: "20%" }}>Phone</span>
         </div>
 
-      {students && students.map((student) => (
-          <StudentCard key={student._id} {...student} />
-      ))}
+      {students &&
+        students.map((student) => {
+          return (
+              <StudentCard key={student._id} {...student} />
+          );
+        })}
     </div>
   );
 }
