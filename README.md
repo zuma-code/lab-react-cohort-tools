@@ -33,7 +33,7 @@ The application that you will be working on today is called Cohort Tools. It is 
 <br>
 
 <p align="center">
-  <img src="" alt="Example - Finished LAB" />
+  <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-cohort-tools-routing/07-student-details-page.gif" alt="Example - Finished LAB" />
 </p>
 
 <br>
@@ -118,7 +118,7 @@ These components are currently being rendered in the `App` component one below t
 In your `App.jsx` set up three routes that render the page components as follows:
 
 - Route **`/`** for the **`HomePage`**.
-- Route **`/student/:studentId`** for the **`StudentDetailsPage`**.
+- Route **`/students/:studentId`** for the **`StudentDetailsPage`**.
 - Route **`/profile`** for the **`UserProfilePage`**.
 
 
@@ -128,7 +128,14 @@ In your `App.jsx` set up three routes that render the page components as follows
 
   <summary><b>See Expected Result</b></summary>
 
-![navigating manually to different pages]()
+**`HomePage`** - **`/`**
+![home page](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-cohort-tools-routing/01-home-page.png)
+
+**`StudentDetailsPage`** - **`/students/:studentId`**
+![student details page](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-cohort-tools-routing/02-student-details-page.png)
+
+**`UserProfilePage`** - **`/profile`**
+![profile page](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-cohort-tools-routing/03-user-profile-page.png)
 
   <br>
 
@@ -150,9 +157,9 @@ Add the links in the following components as explained below:
 
 1. In the `Navbar` component:
 
-   - A link to `/` - `HomePage`, on the logo in the top left corner.
+   - A link to `/` - `HomePage`, on the *logo* in the top left corner.
 
-   - A link to `/profile` - `UserProfilePage`, on the user icon in the top right corner.
+   - A link to `/profile` - `UserProfilePage`, on the *user icon* in the top right corner.
 
 
 <details>
@@ -160,7 +167,7 @@ Add the links in the following components as explained below:
 
   <summary><b>See Expected Result</b></summary>
 
-![navigating to different pages]()
+![navbar links](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-cohort-tools-routing/04-links-navbar.gif)
 
   <br>
 
@@ -179,7 +186,7 @@ Add the links in the following components as explained below:
 
   <summary><b>See Expected Result</b></summary>
 
-![navigating to different pages]()
+![back from user profile](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-cohort-tools-routing/05-user-profile-back.gif)
 
   <br>
 
@@ -188,27 +195,7 @@ Add the links in the following components as explained below:
 <br>
 
 
-
-3. In the `HomePage` component:
-   - A link to `/student/:studentId` - `StudentDetailsPage` on each student list item in the list of students. The link should contain the student's `_id` as a URL parameter.
-
-
-<details>
-
-
-  <summary><b>See Expected Result</b></summary>
-
-![navigating to different pages]()
-
-  <br>
-
-</details>
-
-<br>
-
-
-
-4. In the `StudentDetailsPage` component:
+3. In the `StudentDetailsPage` component:
    - A link to `/` - `HomePage`, on the **Back** button that takes you back.
 
 
@@ -217,7 +204,7 @@ Add the links in the following components as explained below:
 
   <summary><b>See Expected Result</b></summary>
 
-![navigating to different pages]()
+![back from student details](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-cohort-tools-routing/06-student-profile-back.gif)
 
   <br>
 
@@ -226,6 +213,25 @@ Add the links in the following components as explained below:
 <br>
 
 ---
+
+
+4. In the `HomePage` component:
+   - A link to `/student/:studentId` - `StudentDetailsPage` on each student list item in the list of students. The link should contain the student's `_id` as a URL parameter.
+
+
+<details>
+
+
+  <summary><b>See Expected Result</b></summary>
+
+![student list links](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-cohort-tools-routing/08-home-page-links.gif)
+
+  <br>
+
+</details>
+
+<br>
+
 
 
 
@@ -251,7 +257,7 @@ If you need a reminder on how to set up the `useParams` hook and access the URL 
 
   <summary><b>See Expected Result</b></summary>
 
-![student details page]()
+![student details page](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-cohort-tools-routing/07-student-details-page.gif)
 
   <br>
 
