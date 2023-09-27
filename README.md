@@ -67,8 +67,9 @@ npm run dev
 
 ## Instructions
 
-We have provided you with the starter code and all the page components that you will need. This means that you will not need to create any new components. Instead, you will need to set up React Router and use it to show the provided pages.
-Once you have set up React Router and the navigation between pages, you will need to use React Router to access URL parameters and create a dynamic page that renders content based on the URL parameter values.
+To help you get started quickly and let you focus only on practicing React Router without any distractions, we have provided you with the starter code and all the required page components. This means there's no need for you to create any new components. Instead, your task is to set up React Router and use it to display the provided pages.
+
+Once you are done setting up the React Router and the navigation between pages, you will need to use React Router to access URL parameters and create a dynamic page that renders content based on the URL parameter values. Let's get started!
 
 
 
@@ -111,7 +112,7 @@ In the `App.jsx`, you will find the following page components:
 - `<StudentDetailsPage />`
 - `<UserProfilePage />`
 
-These components are currently being rendered in the `App` component one below the other. Each component has a border around it to distinguish between each page component more easily. Your task is to set up React Router routes and show them on specified routes.
+These components are currently being rendered one below the other. Each component has a border around it to distinguish between each page component more easily. Your task is to set up React Router routes and show them on specified routes.
 
 
 
