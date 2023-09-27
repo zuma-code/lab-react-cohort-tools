@@ -26,8 +26,7 @@
 ## Introduction
 
 In this exercise, you will practice using React Router to create a multi-page React application.
-The application that you will be working on today is called Cohort Tools. It is a simple application that allows a teacher to manage students in a cohort of a coding bootcamp. By the end of the exercise, you will have created a React application that contains multiple pages and uses React Router to navigate between pages. You will also use React Router to access URL parameters and create a dynamic page that renders content based on the URL parameter values.
-
+The application that you will be working on today is called Cohort Tools. It is a simple application that allows a teacher to manage students in a cohort of a coding bootcamp.
 
 
 <br>
