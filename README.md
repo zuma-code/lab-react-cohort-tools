@@ -121,20 +121,23 @@ In your `App.jsx` set up three routes that render the page components as follows
 - Route **`/students/:studentId`** for the **`StudentDetailsPage`**.
 - Route **`/profile`** for the **`UserProfilePage`**.
 
-
+<br>
 
 
 <details>
 
   <summary><b>See Expected Result</b></summary>
 
-**`HomePage`** - **`/`**
+
+  <br>
+  
+  **`HomePage`** - **`/`**
 ![home page](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-cohort-tools-routing/01-home-page.png)
 
-**`StudentDetailsPage`** - **`/students/:studentId`**
+  **`StudentDetailsPage`** - **`/students/:studentId`**
 ![student details page](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-cohort-tools-routing/02-student-details-page.png)
 
-**`UserProfilePage`** - **`/profile`**
+  **`UserProfilePage`** - **`/profile`**
 ![profile page](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-cohort-tools-routing/03-user-profile-page.png)
 
   <br>
@@ -151,89 +154,102 @@ In your `App.jsx` set up three routes that render the page components as follows
 
 To make it easy to move from one page to another without having to manually enter a new URL, it is important to provide a way to navigate between different pages of your application. The React Router's [`Link`](https://reactrouter.com/en/main/components/link) element allows you to create links that allow users to navigate from one page to another.
 
-
+<br>
 
 Add the links in the following components as explained below:
 
+<br>
+
 1. In the `Navbar` component:
 
-   - A link to `/` - `HomePage`, on the *logo* in the top left corner.
+   - A link to `/` (`HomePage`) on the **logo** in the top left corner.
 
-   - A link to `/profile` - `UserProfilePage`, on the *user icon* in the top right corner.
+   - A link to `/profile` (`UserProfilePage`) on the **user icon** in the top right corner.
 
+    <br>
 
-<details>
+    <details>
+    
+    
+      <summary><b>See Expected Result</b></summary>
+    
+    ![navbar links](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-cohort-tools-routing/04-links-navbar.gif)
+    
+      <br>
+    
+    </details>
 
-
-  <summary><b>See Expected Result</b></summary>
-
-![navbar links](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-cohort-tools-routing/04-links-navbar.gif)
-
-  <br>
-
-</details>
+<br>
 
 <br>
 
 
 
 2. In the `UserProfilePage` component:
-   - A link to `/` - `HomePage`, on the **Back** button that takes you back.
+   - A link to `/` (`HomePage`) on the **Back** button that takes you back.
+
+    <br>
 
 
-<details>
+    <details>
+    
+    
+      <summary><b>See Expected Result</b></summary>
+    
+    ![back from user profile](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-cohort-tools-routing/05-user-profile-back.gif)
+    
+      <br>
+    
+    </details>
+
+<br>
+
+<br>
+
+3. In the `StudentDetailsPage` component:
+   - A link to `/` (`HomePage`) on the **Back** button that takes you back.
+
+    <br>
 
 
-  <summary><b>See Expected Result</b></summary>
-
-![back from user profile](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-cohort-tools-routing/05-user-profile-back.gif)
-
-  <br>
-
-</details>
+    <details>
+    
+    
+      <summary><b>See Expected Result</b></summary>
+    
+    ![back from student details](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-cohort-tools-routing/06-student-profile-back.gif)
+    
+      <br>
+    
+    </details>
+    
+<br>
 
 <br>
 
 
-3. In the `StudentDetailsPage` component:
-   - A link to `/` - `HomePage`, on the **Back** button that takes you back.
+4. In the `HomePage` component:
+   - A link to `/student/:studentId` (`StudentDetailsPage`) on each student list item in the list of students. The link should contain the student's `_id` as a URL parameter.
+
+    <br>
 
 
-<details>
+    <details>
+    
+    
+      <summary><b>See Expected Result</b></summary>
+    
+    ![student list links](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-cohort-tools-routing/08-home-page-links.gif)
+    
+      <br>
+    
+    </details>
 
-
-  <summary><b>See Expected Result</b></summary>
-
-![back from student details](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-cohort-tools-routing/06-student-profile-back.gif)
-
-  <br>
-
-</details>
+<br>
 
 <br>
 
 ---
-
-
-4. In the `HomePage` component:
-   - A link to `/student/:studentId` - `StudentDetailsPage` on each student list item in the list of students. The link should contain the student's `_id` as a URL parameter.
-
-
-<details>
-
-
-  <summary><b>See Expected Result</b></summary>
-
-![student list links](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-cohort-tools-routing/08-home-page-links.gif)
-
-  <br>
-
-</details>
-
-<br>
-
-
-
 
 ## Iteration 4 | Show Student Details
 
@@ -271,6 +287,9 @@ If you need a reminder on how to set up the `useParams` hook and access the URL 
 **Happy coding!** :blue_heart:
 
 <br>
+
+<br>
+
 
 ## FAQs
 
