@@ -229,7 +229,7 @@ Add the links in the following components as explained below:
 
 
 4. In the `HomePage` component:
-   - A link to `/student/:studentId` (`Student Details Page`) on each student list item in the list of students. The link should contain the student's `_id` as a URL parameter.
+   - A link to `/students/:studentId` (`Student Details Page`) on each student list item in the list of students. The link should contain the student's `_id` as a URL parameter.
 
     <br>
 
@@ -253,9 +253,13 @@ Add the links in the following components as explained below:
 
 ## Iteration 4 | Show Student Details
 
-If you have correctly implemented the link in the previous step, when a user clicks on any student card shown on the list on the home page, they should be navigated to the `StudentDetailsPage`. Additionally, the URL displayed in the address bar should change to `/student/:studentId`, where the `:studentId` is the actual *_id* of the selected student, for example `/student/1`.
+If you have correctly implemented the link in the previous step, when a user clicks on any student card shown on the list on the home page, they should be navigated to the `StudentDetailsPage`, as shown below. Additionally, the URL displayed in the address bar should change to `/students/:studentId`, where the `:studentId` is the actual *_id* of the selected student, for example `/students/1`.
 
+<p align="center">
+  <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/lab-cohort-tools-routing/08-home-page-links.gif" alt="student list links" width="800"/>
+</p>
 
+<br>
 
 The component `StudentDetailsPage` currently displays the same content at all times, featuring a student with an *_id* 1, since the value was hard-coded. Your task is to update the component logic and make the component dynamic so that it shows the information of the selected student. 
 
