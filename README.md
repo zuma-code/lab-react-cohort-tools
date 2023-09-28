@@ -43,7 +43,7 @@ The application that you will be working on today is called Cohort Tools. It is 
 - Clone this repo
 
 ```shell
-cd lab-cohort-tools-routing
+cd lab-react-cohort-tools
 npm install
 npm run dev
 ```
