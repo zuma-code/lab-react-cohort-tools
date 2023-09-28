@@ -162,9 +162,9 @@ Add the links in the following components as explained below:
 
 1. In the `Navbar` component:
 
-   - A link to `/` (`HomePage`) on the **logo** in the top left corner.
-
    - A link to `/profile` (`UserProfilePage`) on the **user icon** in the top right corner.
+
+   - A link to `/` (`HomePage`) on the **logo** in the top left corner.
 
     <br>
 
