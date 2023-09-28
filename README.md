@@ -162,9 +162,9 @@ Add the links in the following components as explained below:
 
 1. In the `Navbar` component:
 
-   - A link to `/profile` (User Profile Page) on the **user icon** in the top right corner.
+   - A link to `/profile` (`User Profile Page`) on the **user icon** in the top right corner.
 
-   - A link to `/` (Home Page) on the **logo** in the top left corner.
+   - A link to `/` (`Home Page`) on the **logo** in the top left corner.
 
     <br>
 
@@ -186,7 +186,7 @@ Add the links in the following components as explained below:
 
 
 2. In the `UserProfilePage` component:
-   - A link to `/` (Home Page) on the **Back** button that takes you back.
+   - A link to `/` (`Home Page`) on the **Back** button that takes you back.
 
     <br>
 
@@ -207,7 +207,7 @@ Add the links in the following components as explained below:
 <br>
 
 3. In the `StudentDetailsPage` component:
-   - A link to `/` (Home Page) on the **Back** button that takes you back.
+   - A link to `/` (`Home Page`) on the **Back** button that takes you back.
 
     <br>
 
@@ -229,7 +229,7 @@ Add the links in the following components as explained below:
 
 
 4. In the `HomePage` component:
-   - A link to `/student/:studentId` (Student Details Page) on each student list item in the list of students. The link should contain the student's `_id` as a URL parameter.
+   - A link to `/student/:studentId` (`Student Details Page`) on each student list item in the list of students. The link should contain the student's `_id` as a URL parameter.
 
     <br>
 
