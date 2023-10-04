@@ -3,7 +3,7 @@ import StudentCard from "../components/StudentCard";
 
 import studentsData from "../assets/students.json";
 
-function StudentListPage() {
+function HomePage() {
   // eslint-disable-next-line no-unused-vars
   const [students, setStudents] = useState(studentsData);
 
@@ -28,4 +28,4 @@ function StudentListPage() {
   );
 }
 
-export default StudentListPage;
+export default HomePage;
